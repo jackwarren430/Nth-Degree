@@ -1,0 +1,7 @@
+{
+  "name": "Nth-Degree",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
