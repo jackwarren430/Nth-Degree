@@ -1,16 +1,16 @@
 import { IonButton } from '@ionic/react';
-import './ExploreContainer.css';
+import './SignUpContainer.css';
 
 interface ContainerProps { }
 
-const ExploreContainer: React.FC<ContainerProps> = () => {
+const SignUpContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
       <strong>Log in to view your friends!</strong>
       <IonButton class='custom-button'>Log In</IonButton>
-      <IonButton class='custom-button'>Sign Up</IonButton>
+      <IonButton class='custom-button'>Log In</IonButton>
     </div>
   );
 };
 
-export default ExploreContainer;
+export default SignUpContainer;
