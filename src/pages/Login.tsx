@@ -1,20 +1,20 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import SignUpContainer from '../components/SignUpContainer';
-import './SignUp.css';
+import LoginContainer from '../components/LoginContainer';
+import './Login.css';
 
-const SignUp: React.FC = () => {
+const Login: React.FC = () => {
   return (
     <IonPage>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Signup Page</IonTitle>
+            <IonTitle size="large">Login Page</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <SignUpContainer />
+        <LoginContainer />
       </IonContent>
     </IonPage>
   );
 };
 
-export default SignUp;
+export default Login;
