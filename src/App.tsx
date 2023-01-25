@@ -41,7 +41,7 @@ const App: React.FC = () => (
           <SignUp />
         </Route>
         <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/login" />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

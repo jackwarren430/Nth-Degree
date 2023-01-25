@@ -1,10 +1,10 @@
 import { IonButton } from '@ionic/react';
 import { Link } from 'react-router-dom';
-import './ExploreContainer.css';
+import './SettingsContainer.css';
 
 interface ContainerProps { }
 
-const ExploreContainer: React.FC<ContainerProps> = () => {
+const SettingsContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
       <strong>Log in to view your friends!</strong>
@@ -18,4 +18,4 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
   );
 };
 
-export default ExploreContainer;
+export default SettingsContainer;
